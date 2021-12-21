@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body>
+    <h1>
+      <p>SCORE HISTORY BOARD <p>
+    <form>
+    <div class="col-sm-4">
+      <table border 40 class = "btn-info display-3 font-weight-bold">
+        <tr><td>Player X:</td><td><input type="text" name ="txtplayerx" id= "playerxid"
+        value=0 > </td></tr>
+        <tr><td>Player O:</td><td><input type="text" name ="txtplayero" id= "playeroid"
+        value=0 > </td></tr>
+        </td></tr> </table>
+        </form> </h1>
+      <div class="board" id="board">
+		    <div class="cell" data-cell></div>
+		    <div class="cell" data-cell></div>
+		    <div class="cell" data-cell></div>
+		    <div class="cell" data-cell></div>
+		    <div class="cell" data-cell></div>
+		    <div class="cell" data-cell></div>
+		    <div class="cell" data-cell></div>
+		    <div class="cell" data-cell></div>
+		    <div class="cell" data-cell></div>
+	  </div>
+
+	<div class="winning-message" id="winningMessage">
+		<div id="winningMessageText"></div>
+		<button id="restartButton">Restart</button>
+	</div>
+    <script src="script.js"></script>
+  </body>
+</html>
